@@ -1,0 +1,42 @@
+	     -> A vérifier
+
+les processus : 
+
+- gestionnaire des tache : Processus 
+
+les fichiers : 
+
+- ProgramData
+- AppData
+- Temp
+
+Le réseau : 
+
+- réseau interne NAT
+
+
+		  -> Observations :
+
+
+Pour les processus en cour, dans le gestionnaire des taches, il y a : 
+
+ - 20 processus en arrière-plans pour la VM infecté 
+
+ - 15 processus en arrière-plans pour la VM non infecté
+
+
+Les processus qui se sont ajouté après l'exécution du Malware sont : 
+
+- Extended copy utility  
+- Interpréteur de commande
+- Microsoft text input application
+- Res
+- Système settings broker
+
+
+
+Pour les fichiers, dans le disque dur principal, dans l'explorateur de fichier il y a : 
+
+ - 1 fichier ajouté après l'exécution du Malware.
+
+ - le fichier se nomme : " WindSyst "
