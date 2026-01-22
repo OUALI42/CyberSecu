@@ -1,0 +1,17 @@
+ - pour obtenir le dump de la RAM complet , il faut utiliser cette commande sur Volatility : 
+
+python vol.py -f CYBERMACHINE-20260121-090024.dmp windows.info
+
+on observe des infos comme l' OS (Windows 10) ou l'architecture par exemple (32 bits)
+
+
+ - pour lister les processus actifs , il s'agit de cette commande : 
+
+python vol.py -f CYBERMACHINE-20260121-090024.dmp windows.pslist
+
+on observe des fichiers suspects comme : res.exe  /  cmd.exe / xcopy.exe
+
+
+-pour analyser les réseaux actif suspect , on utilise : 
+
+python vol.py -f CYBERMACHINE-20260121-090024.dmp windows.pslist
