@@ -1,0 +1,13 @@
+Hash :
+
+Différent hash du virus :  MD5     D872A3086FBB82ED0BA8322C028692DC
+                           SHA1    AF1D820E374ED50757DCDE26BDA069FA86B9B771
+	                         SHA256  49F891ADE48890BFA22D2B455494BE95E52392C478B67E10626222B6AEE37E1E
+
+Mettre le fichier dans virustotal -> trojan.keylogger/zkxji
+				                          -> 54 Moteurs sur 70
+			   	                        -> Trojan
+
+Mettre le fichier dans Hybrid Analisis -> malicious
+				                               -> Trojan
+
