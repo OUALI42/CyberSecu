@@ -1,0 +1,29 @@
+Observation :
+
+- Ralentissement 
+- Application du virus en arrière-plan visible dans le gestionnaire de tâches, mais impact très faible
+- Se lance au démarrage
+- Des pics d'utilisation du processeur de la mémoire observés 
+- des montées de  % d'utilisation du processeur 
+- Type : Cheval de Troie
+
+Impacts
+
+Le malware impacte principalement la disponibilité du système.
+La consommation anormale des ressources (CPU, mémoire et disque) entraîne un ralentissement de la machine, pouvant perturber l’utilisation normale du poste de travail et provoquer une indisponibilité partielle du système.
+
+Évaluation du risque :
+
+Le niveau de risque est évalué comme élevé, en raison de la facilité d’exécution du malware par l’utilisateur, de son lancement automatique, et de son impact direct sur la disponibilité du système.
+
+Recommandations de sécurité :
+
+- Installer et maintenir un antivirus à jour
+
+- Appliquer les mises à jour de sécurité
+
+- Restreindre les droits administrateur
+
+- Activer un pare-feu
+
+Sensibiliser les utilisateurs aux risques liés aux fichiers inconnus et au phishing
