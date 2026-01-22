@@ -9,7 +9,6 @@ Outils utilisés :
 - Oracle VirtualBox
 - VBoxManage
 - FTK Imager
-- IDA 
 
 Information du fichier : 
 
@@ -20,10 +19,12 @@ Information du fichier :
 - Taille : 152 bytes 
 - Hash MD5 : capture d’écran 
 
+Ligne de commande utilisée :
+- C:\Users\vboxuser\Downloads\
+- VBoxManage clonemedium disk "C:\Users\Lucas BAUDIN\VirtualBox VMs\CyberMachine\CyberMachine.vdi" "C:\Cybersécurité\CyberMachine.raw" --format RAW
+- Users\vboxuser\Downloads\Malware-main
 
-IDA :
-Segment type: Pure code
-_text segment para public 'CODE' use32
+
 
 L’analyse statique du fichier Malware-main a été réalisée à l’aide de l’outil IDA Free. 
 Le code analysé révèle la présence d’un segment.
