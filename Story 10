@@ -1,0 +1,14 @@
+Etapes :
+- Création d'un disque dur virtuel 
+- Insertion du fichier Dump-memoire-main en format extrait
+- Détachement du disque virtuel pour simuler éjection de la clef USB 
+- Observation du C:\Windows\INF\setupapi.dev.log afin de retrouver trace de la clef
+
+
+Commande utiliser :
+C:\Windows\INF\setupapi.dev.log
+
+
+Dans le cadre de l’US 10, une image disque a été utilisée pour simuler une clé USB contenant des données sensibles. 
+Le disque virtuel a été monté, utilisé, puis détaché afin de générer des traces système. 
+L’analyse du fichier setupapi.dev.log a permis d’identifier des événements horodatés liés à la gestion des périphériques, contribuant à l’établissement d’une chronologie cohérente de l’utilisation du support.
