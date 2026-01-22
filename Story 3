@@ -1,0 +1,11 @@
+Verifier le maware avec SysinternalsSuite : 
+    -> Signature invalide
+    -> Type PE32
+    -> Architecture x86
+
+Nous avons analyser le malware afin d'identifier sa structure et ses fonctionnalités
+
+"C:\Cybersécurité\CyberMachine.vdi" (la VM)
+
+VBoxManage clonemedium disk "C:\Cybersécurité\CyberMachine.vdi"
+"C:\Cybersécurité\CyberMachineInfected.raw" --format RAW
