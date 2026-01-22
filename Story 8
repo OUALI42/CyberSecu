@@ -1,0 +1,9 @@
+Cette analyse mémoire a permis d’identifier un processus malveillant nommé res.exe, avec le PID 2140.
+Le PID (Process Identifier) est un identifiant unique attribué par le système d’exploitation à chaque processus en cours d’exécution.
+Il permet de distinguer et de suivre précisément un processus actif en mémoire.
+
+Le chemin du binaire associé au processus a également été récupéré, permettant de faire le lien entre la mémoire et le disque.
+La corrélation entre les données mémoire et les fichiers présents sur le disque a confirmé que le processus observé en RAM correspond bien à un fichier malveillant stocké sur le système.
+
+Enfin, l’analyse des mécanismes de persistance a montré que le malware survit à un redémarrage de la machine. Cela indique la présence d’un mécanisme de persistance,
+caractéristique d’un cheval de Troie, et confirme la compromission du système.
