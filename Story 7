@@ -25,14 +25,6 @@ Ligne de commande utilisée :
 - Users\vboxuser\Downloads\Malware-main
 
 
-
-L’analyse statique du fichier Malware-main a été réalisée à l’aide de l’outil IDA Free. 
-Le code analysé révèle la présence d’un segment.
-Le text, correspondant à une section de code exécutable, compilée pour une architecture 32 bits (use32).
-Le contenu du segment est principalement constitué d’instructions bas niveau et de données binaires, sans chaînes de caractères explicites ni appels directs à des API Windows identifiables. 
-Cette absence de structures lisibles, combinée à la taille extrêmement réduite du fichier (152 octets), suggère que ce programme agit comme un chargeur minimaliste (stub), destiné à exécuter ou initialiser une charge malveillante supplémentaire.
-Ce comportement est cohérent avec les techniques utilisées par des malwares légers visant à limiter leur empreinte et à compliquer l’analyse statique.
-
 Un fichier suspect nommé Malware-main a été identifié dans le répertoire de téléchargement de l’utilisateur vboxuser. 
 Le fichier a été créé le 20 janvier 2026 à 12h06, correspondant à la période d’infection. 
 Sa taille anormalement faible (152 octets) suggère un rôle de chargeur ou de script malveillant. 
